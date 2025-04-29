@@ -1,0 +1,10 @@
+[
+  {
+    "id": "wretro1",
+    "title": "Retro",
+    "description": "Women's FDFS-RETRO - Special show for women only at Aarthi Grand Cineplex, Dindigul",
+    "showtimes": ["9:00 AM"],
+    "special_show": true,
+    "location": "Dindigul"
+  }
+] 

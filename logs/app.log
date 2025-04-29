@@ -1,0 +1,131 @@
+2025-04-29 13:11:12 | INFO     | __main__:send_test_message:32 - Sending test message to whatsapp:+919047027504
+2025-04-29 13:11:13 | INFO     | __main__:send_test_message:41 - Message sent successfully. SID: SM7889f03308e2d2c313d7608f8ff98e65
+2025-04-29 13:12:28 | INFO     | __main__:send_test_message:32 - Sending test message to whatsapp:+919894775962
+2025-04-29 13:12:29 | INFO     | __main__:send_test_message:41 - Message sent successfully. SID: SMcb0fec88c6c2d05bb241cde38a718e4d
+2025-04-29 13:21:37 | INFO     | __main__:<module>:27 - Starting WhatsApp Cinema Bot
+2025-04-29 13:21:37 | INFO     | __main__:<module>:85 - Starting server with Twilio account AC3f4d07e9464b25b2d92c0183d59f807d
+2025-04-29 13:24:20 | INFO     | __main__:send_test_message:32 - Sending test message to whatsapp:+919894775962
+2025-04-29 13:24:20 | INFO     | __main__:send_test_message:41 - Message sent successfully. SID: SM05e3117a943a35a15b7584263816951f
+2025-04-29 13:25:37 | INFO     | __main__:<module>:27 - Starting WhatsApp Cinema Bot
+2025-04-29 13:25:37 | INFO     | __main__:<module>:85 - Starting server with Twilio account AC3f4d07e9464b25b2d92c0183d59f807d
+2025-04-29 13:28:31 | INFO     | __main__:<module>:27 - Starting WhatsApp Cinema Bot
+2025-04-29 13:28:31 | INFO     | __main__:<module>:85 - Starting server with Twilio account AC3f4d07e9464b25b2d92c0183d59f807d
+2025-04-29 13:45:16 | INFO     | __main__:<module>:27 - Starting WhatsApp Cinema Bot
+2025-04-29 13:45:16 | INFO     | __main__:<module>:85 - Starting server with Twilio account AC3f4d07e9464b25b2d92c0183d59f807d
+2025-04-29 13:49:25 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 13:49:25 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: #WRETRO
+2025-04-29 13:49:25 | INFO     | modules.session:get_session:61 - Creating new session for user whatsapp:+919047027504
+2025-04-29 13:49:26 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919047027504: SM18af9e92a3b946615ff42004f4fe69aa
+2025-04-29 13:49:26 | DEBUG    | modules.session:update_state:28 - User whatsapp:+919047027504: State changed from BookingState.INITIAL to BookingState.ACCEPTED_TERMS
+2025-04-29 13:49:38 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 13:49:38 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: OKAY
+2025-04-29 13:52:49 | INFO     | __main__:<module>:27 - Starting WhatsApp Cinema Bot
+2025-04-29 13:52:49 | INFO     | __main__:<module>:85 - Starting server with Twilio account AC3f4d07e9464b25b2d92c0183d59f807d
+2025-04-29 13:53:53 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 13:53:53 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: #WRETRO
+2025-04-29 13:53:53 | INFO     | modules.session:get_session:57 - Creating new session for user whatsapp:+919047027504
+2025-04-29 13:53:54 | INFO     | modules.messaging:send_message_with_buttons:72 - Interactive message sent to whatsapp:+919047027504: SMa81a90397bae21b19d8d701adef8b6dc
+2025-04-29 13:53:54 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919047027504: State changed from BookingState.INITIAL to BookingState.ACCEPTED_TERMS
+2025-04-29 13:57:35 | INFO     | __main__:<module>:27 - Starting WhatsApp Cinema Bot
+2025-04-29 13:57:35 | INFO     | __main__:<module>:85 - Starting server with Twilio account AC3f4d07e9464b25b2d92c0183d59f807d
+2025-04-29 13:59:01 | INFO     | __main__:<module>:27 - Starting WhatsApp Cinema Bot
+2025-04-29 13:59:01 | INFO     | __main__:<module>:85 - Starting server with Twilio account AC3f4d07e9464b25b2d92c0183d59f807d
+2025-04-29 14:00:16 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 14:00:16 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: https://6020-2405-201-e016-d1e8-c180-13ef-d61d-edc0.ngrok-free.app/webhook
+2025-04-29 14:00:16 | INFO     | modules.session:get_session:57 - Creating new session for user whatsapp:+919047027504
+2025-04-29 14:00:24 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 14:00:24 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: #WRETRO
+2025-04-29 14:00:24 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919047027504: SM2fab148844901e38d4da0f69d55ce4c9
+2025-04-29 14:00:24 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919047027504: State changed from BookingState.INITIAL to BookingState.ACCEPTED_TERMS
+2025-04-29 14:00:31 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 14:00:31 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: Accept
+2025-04-29 14:00:31 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919047027504: SM171b25de56b179236eb8e2c6d3a39f08
+2025-04-29 14:00:31 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919047027504: State changed from BookingState.ACCEPTED_TERMS to BookingState.TICKETS_SELECTED
+2025-04-29 14:00:38 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 14:00:38 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: 4
+2025-04-29 14:00:39 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919047027504: SMb1e8d74dcf21d7768964dc1a52a62f4f
+2025-04-29 14:00:39 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919047027504: State changed from BookingState.TICKETS_SELECTED to BookingState.COMPLETED
+2025-04-29 14:00:39 | INFO     | modules.messaging:handle_message:138 - New booking: whatsapp:+919047027504, 4 tickets at Dindigul
+2025-04-29 14:01:31 | ERROR    | modules.messaging:send_message:39 - Error sending message to whatsapp:+919047027504: HTTPSConnectionPool(host='api.twilio.com', port=443): Max retries exceeded with url: /2010-04-01/Accounts/AC3f4d07e9464b25b2d92c0183d59f807d/Messages.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x103cc83b0>, 'Connection to api.twilio.com timed out. (connect timeout=None)'))
+2025-04-29 14:02:28 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 14:02:28 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: #WRETRO
+2025-04-29 14:02:28 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919047027504: SM1788f70c5b0f4408c7f66b9871681d7d
+2025-04-29 14:02:28 | INFO     | modules.session:reset:39 - Resetting session for user whatsapp:+919047027504
+2025-04-29 14:02:42 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 14:02:42 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: 1
+2025-04-29 14:02:42 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919047027504: SMab59a2fb3ef0830721a57d60ed1ec9b7
+2025-04-29 14:02:58 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 14:02:58 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: #WRETRO
+2025-04-29 14:02:58 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919047027504: SM257fdbc435964d83baade41064f5206a
+2025-04-29 14:02:58 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919047027504: State changed from BookingState.INITIAL to BookingState.ACCEPTED_TERMS
+2025-04-29 14:03:12 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 14:03:12 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: #WRETRO
+2025-04-29 14:03:12 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919047027504: SMda86a0a1ab7fa08cafcdacabaae3d54a
+2025-04-29 14:03:22 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 14:03:22 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: Accept
+2025-04-29 14:03:22 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919047027504: SM33ae731c48d9e5898cb68b1de3fc0b35
+2025-04-29 14:03:22 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919047027504: State changed from BookingState.ACCEPTED_TERMS to BookingState.TICKETS_SELECTED
+2025-04-29 14:03:27 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 14:03:27 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: 3
+2025-04-29 14:03:28 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919047027504: SM65d8996f38ff7547c842c36252db997d
+2025-04-29 14:03:28 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919047027504: State changed from BookingState.TICKETS_SELECTED to BookingState.COMPLETED
+2025-04-29 14:03:28 | INFO     | modules.messaging:handle_message:138 - New booking: whatsapp:+919047027504, 3 tickets at Dindigul
+2025-04-29 14:04:26 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919894775962
+2025-04-29 14:04:26 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919894775962: #WRETRO
+2025-04-29 14:04:26 | INFO     | modules.session:get_session:57 - Creating new session for user whatsapp:+919894775962
+2025-04-29 14:04:26 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919894775962: SM6c571f017eaba2b1da8dab0865f95ca1
+2025-04-29 14:04:26 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919894775962: State changed from BookingState.INITIAL to BookingState.ACCEPTED_TERMS
+2025-04-29 14:05:08 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919894775962
+2025-04-29 14:05:08 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919894775962: Accept
+2025-04-29 14:05:09 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919894775962: SMd6e1866b6272a1b1f6c6960b72f31c8c
+2025-04-29 14:05:09 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919894775962: State changed from BookingState.ACCEPTED_TERMS to BookingState.TICKETS_SELECTED
+2025-04-29 14:06:10 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919894775962
+2025-04-29 14:06:10 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919894775962: 3
+2025-04-29 14:06:10 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919894775962: SM365831cb2d8d5cfb034dd513726e4c10
+2025-04-29 14:06:10 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919894775962: State changed from BookingState.TICKETS_SELECTED to BookingState.COMPLETED
+2025-04-29 14:06:10 | INFO     | modules.messaging:handle_message:138 - New booking: whatsapp:+919894775962, 3 tickets at Dindigul
+2025-04-29 14:16:32 | INFO     | __main__:<module>:27 - Starting WhatsApp Cinema Bot
+2025-04-29 14:16:32 | INFO     | __main__:<module>:85 - Starting server with Twilio account AC3f4d07e9464b25b2d92c0183d59f807d
+2025-04-29 14:23:24 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919894775962
+2025-04-29 14:23:24 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919894775962: #WRETRO
+2025-04-29 14:23:24 | INFO     | modules.session:get_session:57 - Creating new session for user whatsapp:+919894775962
+2025-04-29 14:23:25 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919894775962: SMb20fcbbf2fafa7bd212a41dda7183ce9
+2025-04-29 14:23:25 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919894775962: State changed from BookingState.INITIAL to BookingState.ACCEPTED_TERMS
+2025-04-29 14:23:39 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919894775962
+2025-04-29 14:23:39 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919894775962: Accept
+2025-04-29 14:23:39 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919894775962: SMdb18595299871006b513a0bf684ab68e
+2025-04-29 14:23:39 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919894775962: State changed from BookingState.ACCEPTED_TERMS to BookingState.TICKETS_SELECTED
+2025-04-29 14:23:57 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919894775962
+2025-04-29 14:23:57 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919894775962: 5
+2025-04-29 14:23:58 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919894775962: SMe7f0595f8c74ee82a55e1aa180ec3a83
+2025-04-29 14:23:58 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919894775962: State changed from BookingState.TICKETS_SELECTED to BookingState.COMPLETED
+2025-04-29 14:23:58 | INFO     | modules.messaging:handle_message:138 - New booking: whatsapp:+919894775962, 5 tickets at Dindigul
+2025-04-29 14:25:15 | INFO     | __main__:<module>:27 - Starting WhatsApp Cinema Bot
+2025-04-29 14:25:15 | INFO     | __main__:<module>:85 - Starting server with Twilio account AC3f4d07e9464b25b2d92c0183d59f807d
+2025-04-29 14:25:42 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 14:25:42 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: #WRETRO
+2025-04-29 14:25:42 | INFO     | modules.session:get_session:57 - Creating new session for user whatsapp:+919047027504
+2025-04-29 14:25:43 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919047027504: SM5051d914c056fd56e05975f2ea67a955
+2025-04-29 14:25:43 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919047027504: State changed from BookingState.INITIAL to BookingState.ACCEPTED_TERMS
+2025-04-29 14:25:53 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 14:25:53 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: accept
+2025-04-29 14:25:53 | INFO     | modules.messaging:send_message:33 - Message sent to whatsapp:+919047027504: SM28e72baab6bea8aef7729020a9815f34
+2025-04-29 14:25:53 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919047027504: State changed from BookingState.ACCEPTED_TERMS to BookingState.TICKETS_SELECTED
+2025-04-29 14:26:00 | INFO     | __main__:webhook:37 - Received webhook from whatsapp:+919047027504
+2025-04-29 14:26:00 | DEBUG    | modules.bot:process_incoming_message:14 - Received message from whatsapp:+919047027504: 3
+2025-04-29 14:26:01 | ERROR    | modules.messaging:send_message:36 - Twilio error sending message to whatsapp:+919047027504: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC3f4d07e9464b25b2d92c0183d59f807d/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Account AC3f4d07e9464b25b2d92c0183d59f807d exceeded the 9 daily messages limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/63038[0m
+
+
+2025-04-29 14:26:01 | DEBUG    | modules.session:update_state:24 - User whatsapp:+919047027504: State changed from BookingState.TICKETS_SELECTED to BookingState.COMPLETED
+2025-04-29 14:26:01 | INFO     | modules.messaging:handle_message:138 - New booking: whatsapp:+919047027504, 3 tickets at Dindigul
