@@ -21,8 +21,13 @@ class WhatsAppMessaging:
     def send_message(self, to: str, body: str, media_url: Optional[List[str]] = None) -> bool:
         """Send WhatsApp message with optional media"""
         try:
+            # Clean up the phone number format
             if not to.startswith('whatsapp:'):
                 to = f'whatsapp:{to}'
+            else:
+                # Ensure no space after whatsapp:
+                prefix, number = to.split(':', 1)
+                to = f'{prefix}:{number.strip()}'
             
             message = self.client.messages.create(
                 from_=self.whatsapp_number,
@@ -94,6 +99,11 @@ class MessageHandler:
         # Clean up the incoming message
         clean_body = body.strip().lower()
         
+        # Fix phone number format if necessary
+        if ":" in from_number:
+            prefix, number = from_number.split(':', 1)
+            from_number = f'{prefix}:{number.strip()}'
+        
         # Process message based on current state
         if session.state == BookingState.INITIAL:
             if "#wretro" in clean_body:
@@ -133,9 +143,6 @@ class MessageHandler:
                         session.update_data("tickets", tickets)
                         self.messaging.send_confirmation(from_number, tickets)
                         session.update_state(BookingState.COMPLETED)
-                        
-                        # In a real system, notify admin about new booking
-                        logger.info(f"New booking: {user_id}, {tickets} tickets at {session.get_data('location')}")
                         return
                 
                 # If we reach here, there was an issue with the ticket number
